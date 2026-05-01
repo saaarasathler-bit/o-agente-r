@@ -1,0 +1,23 @@
+body{
+background:black;
+color:#00ff9c;
+font-family:monospace;
+text-align:center;
+}
+
+button,input{
+background:black;
+color:#00ff9c;
+border:1px solid #00ff9c;
+padding:10px;
+}
+
+.glitch{
+animation: glitch 1s infinite;
+}
+
+@keyframes glitch{
+0%{text-shadow:2px 0 red;}
+50%{text-shadow:-2px 0 blue;}
+100%{text-shadow:2px 0 red;}
+}
